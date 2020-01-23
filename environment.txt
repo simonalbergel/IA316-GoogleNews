@@ -1,0 +1,15 @@
+Reward Déterministe
+
+#Goal 
+-> 1 Maximize Regularity then Time Spent on the website (iexemple : if the agent comes back everyday)
+_> 2 Maximize CTR
+(+) if article flagged as "more articles like this one", bonus if in category "for you"
+(-) if article flagged as "less articles like this one", malus if in category "for you"
+
+#Environment
+Region Selected : Language & Region
+Google Account : various metadata (gender, age, origin country, ...)
+Current location
+Previous activity : categories seen, articles read
+
+#Rewards
